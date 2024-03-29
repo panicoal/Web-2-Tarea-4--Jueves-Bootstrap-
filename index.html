@@ -14,7 +14,7 @@
 <body>
     <!-- NavBar -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-warning cabecera">
+        <nav class="navbar navbar-expand-lg cabecera">
             <div class="container-lg">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo/Flag-map_of_Bolivia.svg" alt="Logo" width="30" height="24"
@@ -39,26 +39,128 @@
     </header>
     <!-- Contenido -->
     <main>
-        
+        <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carrusel">
+                <div class="carousel-item active">
+                    <img src="assets/img/inicio/Car1.jpeg" class="d-block w-100 imagen-carrusel" alt="Lugar1">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Turismo Bolivia en Semana Santa 2024</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aliquam animi iusto
+                                sequi. Culpa deserunt sapiente ratione quasi placeat dicta?</p>
+                            <p><a class="btn btn-lg btn-success mb-4" href="assets/pages/SemanaSanta.html">Más
+                                    información</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/inicio/Car4.jpg" class="d-block w-100 imagen-carrusel" alt="Lugar2">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Noticias Turisticas 2024</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae cum suscipit autem
+                                dolor officia possimus?</p>
+                            <p><a class="btn btn-lg btn-success mb-4" href="assets/pages/Noticias.html">Ver noticias</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/inicio/Car3.jpg" class="d-block w-100 imagen-carrusel" alt="Lugar3">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Galeria</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus assumenda facere
+                                itaque quod eos aliquam.</p>
+                            <p><a class="btn btn-lg btn-success mb-4" href="assets/pages/Galeria.html">Ver galeria</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <hr class="featurette-divider">
+
+            <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                    <h2 >Estos son los lugares mas visitados <br> <span class="text-muted">en Semana Santa en Bolivia</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga et accusantium modi eos hic assumenda ipsam quisquam magnam corrupti consequuntur ducimus repellat odit voluptas sit est, labore laudantium. Nihil?</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/img/inicio/larga1.jpg" class="d-block h-75 w-100 img-fluid rounded" alt="Lugar1">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr class="featurette-divider">
+
+            <div class="row d-flex align-items-center">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Estas son las Ultimas Noticias <br><span class="text-muted">Ocurridas en marzo</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloribus iste, eos id ducimus consequuntur maxime odit modi incidunt in. Assumenda aliquid, recusandae unde aperiam ab officia eaque eligendi aspernatur.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/inicio/larga2.jpg" class="d-block h-75 w-100 img-fluid rounded" alt="Lugar1">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr class="featurette-divider">
+
+            <div class="row d-flex align-items-center mb-4 ">
+                <div class="col-md-7">
+                    <h2>Ve nuestra selecta <br> <span class="text-muted">Galeria de Fotografias</span></h2>
+                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+                        really
+                        intended to be actually read, simply here to give you a better view of what this would look like
+                        with some actual content. Your content.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/img/inicio/larga3.jpg" class="d-block h-75 w-100 img-fluid rounded" alt="Lugar1">
+                </div>
+            </div>
+        </div>
+        </div><!-- /.container -->
     </main>
     <!-- Footer -->
-        <div class="navbar-expand-lg pie">
-            <div class="container">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                  <p class="col-md-4 mb-0 text-light">&copy; 2024 Joaquin Paco Alanoca, Inf122</p>
-              
-                  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-                  </a>
-              
-                  <ul class="nav col-md-4 justify-content-end">
+    <div class="navbar-expand-lg pie">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-light">&copy; 2024 Joaquin Paco Alanoca, Inf122</p>
+
+                <a href="/"
+                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <ul class="nav col-md-4 justify-content-end">
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Semana Santa</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Noticias</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Galeria</a></li>
-                  </ul>
-                </footer>
-              </div>
+                </ul>
+            </footer>
         </div>
+    </div>
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

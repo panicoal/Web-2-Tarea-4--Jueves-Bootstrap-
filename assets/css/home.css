@@ -1,12 +1,22 @@
-:root{
+:root {
     --principal-color: #43b929;
     --pie-color: #0a122a;
 }
-.cabecera{
+
+.cabecera {
     background-color: var(--principal-color);
-    height: 120px;
+    height: 100px;
 }
-.pie{
+
+.pie {
     background-color: var(--pie-color);
     padding: 10px 0px;
+}
+
+.carrusel {
+    background-color: #0a122a;
+}
+
+.imagen-carrusel {
+    height: 53em;
 }
